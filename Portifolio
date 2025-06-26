@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <title>Meu portfólio</title>
+  </head>
+  <body>
+    <header class="container text-center">
+    <img src="img/images.jpg" alt="avatar da Monica" class="rounded-circle" width=250 height="250" srcset="" />
+    <p class="lead">Eu sou Monica☁️</p>
+    <h1>Eu sou estudante :) </h1>
+    <p>
+      Sou vice lider de sala e quero fazer uma faculdade relacionada a pele e cosmeticos. (dermatologia, medicina), mas caso eu mão consiga entrar quero ser economista na usp!
+    </p>
+    <p> - Minhas habilidades -</p>
+    <div>
+        <p class="badge text-bg-secondary">Boa dicção</p>
+        <p class="badge text-bg-secondary">Flexivel</p>
+        <p class="badge text-bg-secondary">Paciente</p>
+        <p class="badge text-bg-secondary">Amigavel</p>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+    </header>
+  <main class="container mt-5">
+    <h2 class="text-center"> ⭐️Meus hobbys⭐️ </h2>
+    <div class="row">
+      <!-- Crochê -->
+        <div class="col-md-4"> 
+          <div class="card" style="width: 18rem;">
+            <img src="img/croche.jpg" class="card-img-top" alt=" imagem de crochê">
+            <div class="card-body">
+             <p class="card-text"> Amo fazer crochê no tempo livre para relaxar e aliviar a ansiedade.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Jogo -->
+        <div class="col-md-4"> 
+          <div class="card" style="width: 18rem;">
+            <img src="img/jogo.jpg" class="card-img-top" alt=" imagem de jogo">
+            <div class="card-body">
+              <p class="card-text"> Jogar é muito bom para distrair a cabeça e desviar a atenção de coisas estressantes.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Livros -->
+        <div class="col-md-4"> 
+          <div class="card" style="width: 18rem;">
+            <img src="img/livros.jpg" class="card-img-top" alt=" imagem de livro">
+            <div class="card-body">
+              <p class="card-text"> Ler é uma ótima forma de entretenimento saudavel, além de estimular o cérebro, aumenta o seu repertótio cultural.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="container py-5">
+    <h2> Minhas redes sociais </h2>
+    <div>
+      <i class="bi bi-github"></i>
+      <a href="https://github.com/MonCSZ"> Github </a>
+      <p class="my-5 text-center">© Copyright 2025. Produzido por mim Moniquinha 💅 </p>
+    </div>
+
+  </footer>
+
+    </body>
+</html>
