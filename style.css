@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+    --cor-principal:#000000 ;
+    --cor-secundaria:#353535 ;
+    --cor-destaque:#38284d ;
+}
+
+body {
+    font-family: 'family Rubik', sans-serif ;
+    color: var(--cor-principal)
+}
+
+h1, h2, h5{
+    color: var(--cor-secundaria);
+    font-weight: 700;
+}
+
+.lead {
+    color: var(--cor-destaque);
+    font-weight: 700;
+}
+
+footer a {
+    color: var(--cor-principal);
+}
+
+footer a:hover {
+
+    color:var(--cor-destaque)
+}
